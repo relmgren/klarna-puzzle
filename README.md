@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Check the problem description at https://lifeatklarna.com/2016/11/21/train-your-brain-with-our-puzzling-challenges/
 
-##The rules:
+## The rules:
 
 Survival: An “alive” cell lives on to the next generation, when it has two or three “alive” neighbour cells.
 
@@ -13,7 +13,8 @@ Birth: A “dead” cell with exactly three “alive” neighbour cells is broug
 
 I added a rule that the next iteration gets put onto the next row. If the row is > the canvas it starts over on the first row.
 
-
+## Result
+![Result after 50 generations](result.jpg?raw=true "Result")
 
 ## Folder Structure
 
